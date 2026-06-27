@@ -1,0 +1,11 @@
+I solved Two Sum using a hash map.
+
+For each number, I calculate the complement, which is target minus the current number.
+
+Then I check if the complement already exists in the dictionary.
+
+If it exists, I return the stored index and the current index.
+
+Otherwise, I store the current number with its index.
+
+This solution runs in O(n) time and uses O(n) space.
