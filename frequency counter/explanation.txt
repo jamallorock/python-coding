@@ -1,0 +1,3 @@
+I use a dictionary to count the frequency of each item. For each item, 
+I check if it already exists in the dictionary. If it does, I increment the counter. Otherwise, 
+I initialize it with one. This runs in O(n) time and uses O(n) space.
