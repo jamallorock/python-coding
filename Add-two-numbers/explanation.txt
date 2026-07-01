@@ -1,0 +1,7 @@
+I will iterate through both linked lists at the same time.
+For each node, I take the current digit from the first list and the current digit from the second list.
+I add them together with the carry from the previous step.
+The current result digit is total modulo 10, and the new carry is total divided by 10.
+I append the digit to the result linked list and move both pointers forward.
+I continue while either list still has nodes or there is a remaining carry.
+The time complexity is O(max n, m), and the space complexity is O(max n, m) because we create a new result list.

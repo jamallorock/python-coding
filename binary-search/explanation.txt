@@ -1,0 +1,6 @@
+I can use binary search because the input list is sorted.
+I keep two pointers, left and right, and repeatedly check the middle element.
+If the middle element is equal to the target, I return its index.
+If the middle element is smaller than the target, I continue searching on the right side.
+Otherwise, I search on the left side.
+This runs in O(log n) time and uses O(1) space.

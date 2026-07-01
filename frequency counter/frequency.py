@@ -14,8 +14,8 @@ def frequency_counter(items):
 
 
 def main():
-    #items = ["error", "info", "error", "warning", "info", "error","info","info","info","info","info"]
-    items = [200, 500, 200, 404, 500, 503, 200, 500]
+    items = ["error", "info", "error", "warning", "info", "error","info","info","info","info","info"]
+    #items = [200, 500, 200, 404, 500, 503, 200, 500]
     result = frequency_counter(items)
     print(result)
 

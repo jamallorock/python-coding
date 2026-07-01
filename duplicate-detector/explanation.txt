@@ -1,0 +1,2 @@
+I use a set to track items I have already seen. If the current item is already in the set, I return True. Otherwise, I add it to the set. If I finish the loop without finding duplicates, 
+I return False. This runs in O(n) time and uses O(n) space.
