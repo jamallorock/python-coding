@@ -1,6 +1,3 @@
-import sys
-import os
-
 def duplicateDetector(items):
     seen = set()
     for item in items:

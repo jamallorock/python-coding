@@ -7,6 +7,7 @@ def frequency_counter(items):
     for item in items:
       if item in counts:
           counts[item] += 1
+          print(counts[item], "counter for item =",item)          
       else:
           counts[item] = 1
     return(counts)
