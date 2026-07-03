@@ -1,0 +1,40 @@
+Jak to mówić po angielsku na interview
+--------------------
+Dla count_status_codes:
+
+I use a dictionary to count how many times each status code appears. For each status, if it already exists in the dictionary, I increment its counter. Otherwise, I initialize it with one. 
+This runs in O(n) time and uses O(n) space.
+Complexity:
+
+Time:  O(n)
+Space: O(k), gdzie k = liczba unikalnych statusów
+
+W najgorszym przypadku k = n, więc można powiedzieć:
+
+Space: O(n)
+
+
+-------------
+Dla only_5xx:
+
+I iterate through the list of status codes and collect only the ones greater than or equal to 500. 
+This runs in O(n) time and uses O(k) space, where k is the number of server error responses.
+
+
+---------
+Dla count_5xx:
+
+I keep a counter and increment it whenever the status code is greater than or equal to 500. 
+This runs in O(n) time and uses O(1) space.
+Complexity:
+
+Time:  O(n)
+Space: O(1)
+
+Dlaczego Space O(1)?
+
+Bo używasz tylko jednej zmiennej:
+
+count = 0
+
+Nie tworzysz listy ani słownika rosnącego z rozmiarem wejścia.

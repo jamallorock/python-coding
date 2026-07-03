@@ -9,3 +9,12 @@ If it exists, I return the stored index and the current index.
 Otherwise, I store the current number with its index.
 
 This solution runs in O(n) time and uses O(n) space.
+
+
+
+I use a dictionary to store numbers 
+I have already seen and their indices. For each number, I calculate the complement, 
+which is target minus the current number. If the complement is already in the dictionary, 
+I return the index from the dictionary and the current index. Otherwise, 
+I store the current number with its index. 
+This runs in O(n) time and uses O(n) space.
