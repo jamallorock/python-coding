@@ -1,0 +1,17 @@
+I use a stack to keep track of opening brackets.
+
+When I see an opening bracket, I push it onto the stack.
+
+When I see a closing bracket, I check whether the stack is empty. If it is empty, the string is invalid.
+
+Otherwise, I pop the last opening bracket from the stack and check whether it matches the current closing bracket.
+
+At the end, the string is valid only if the stack is empty.
+
+The time complexity is O(n), and the space complexity is O(n) in the worst case.
+
+
+I use a stack to store opening brackets. When I see a closing bracket, 
+the stack must not be empty, because otherwise there is nothing to close. 
+Then I pop the last opening bracket and check if it matches the current closing bracket. 
+At the end, the stack must be empty.
