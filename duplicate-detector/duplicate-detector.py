@@ -8,7 +8,7 @@ def duplicateDetector(items):
     return False
 
 def main():
-    items = ["Aga","Agata","Adam","Artur"]
+    items = ["Aga","Agata","Adam","Artur","Agata"]
     result = duplicateDetector(items)
     print(result)
 
